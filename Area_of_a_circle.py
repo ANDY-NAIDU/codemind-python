@@ -1,3 +1,2 @@
 a=int(input())
-rounded = round((3.14*(a*a)),2)
-print(rounded)
+print("{:.2f}".format((3.14*a*a)))
