@@ -1,3 +1,3 @@
-p, r, t = map(int, input().split())
-result = p * (1 + (r / 100)) ** t
-print(f"{result:.2f}")
+a,b,c= map(int,input().split())
+d= a * (1 + (b/100))**c
+print("{:.2f}".format((d)))
